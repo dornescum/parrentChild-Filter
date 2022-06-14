@@ -1,0 +1,14 @@
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem ;
+  .item{
+    padding: 1rem;
+    background-color: silver;
+    border: 1px solid lightsalmon;
+    color: white;
+    margin: 1rem;
+  }
+}

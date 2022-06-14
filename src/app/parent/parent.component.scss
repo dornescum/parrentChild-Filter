@@ -1,0 +1,25 @@
+.top {
+  min-height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  height: 5rem;
+
+  .container {
+    .btn-filter {
+      padding: 1rem 2rem;
+
+      &:hover {
+        background-color: lightsalmon;
+      }
+
+      &:active {
+        background-color: red;
+      }
+    }
+  }
+}
+.output{
+  text-align: center;
+}
